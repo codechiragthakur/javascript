@@ -14,3 +14,9 @@ function sayhello() {
 
 
 sayhello();
+// storing function 
+let a = function sum(d, e) {
+    let di = d + e;
+    return di;
+}
+console.log(a(5, 7));
